@@ -1,11 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
-	year := 1991
+	date := time.Date(1991, 11, 5, 19, 58, 0, 0, time.Now().Location())
 
-	switch {
+	switch year := date.Year(); {
 	case year > 2012:
 		fmt.Println("hi alpha")
 	case year > 1996:
