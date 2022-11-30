@@ -4,6 +4,8 @@ go 1.18
 
 require github.com/go-resty/resty/v2 v2.7.0
 
+require github.com/mattn/go-sqlite3 v1.14.16 // indirect
+
 require (
 	github.com/caarlos0/env/v6 v6.10.1
 	github.com/davecgh/go-spew v1.1.1 // indirect
